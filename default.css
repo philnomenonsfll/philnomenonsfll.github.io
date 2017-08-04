@@ -178,13 +178,16 @@ hr {
 #menu {
 	overflow: hidden;
 	background: #3e86d8;
+	text-align: center;
+	padding: 0 30px;
+	width: 1200px;
 }
 
 #menu ul {
-	margin: 0px 0px 0px 0px;
 	padding: 0px 0px;
 	list-style: none;
 	line-height: normal;
+	margin: 0 auto;
 }
 
 #menu li {
