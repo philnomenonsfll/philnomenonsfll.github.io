@@ -5,7 +5,7 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #3e86d8;
+	background: #2ac4f4;  /* #3e86d8 */
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 400;
@@ -177,7 +177,7 @@ hr {
 
 #menu {
 	overflow: hidden;
-	background: #3e86d8;
+	background: #2ac4f4;
 	text-align: center;
 	padding: 0 30px;
 	width: 1300px;
@@ -203,13 +203,13 @@ hr {
 	text-align: center;
 	font-size: 16px;
 	font-weight: 400;
-	color: rgba(255,255,255,0.5);
+	color: rgba(0,0,0,1.0);
 	border: none;
 }
 
 #menu a:hover, #menu .current_page_item a {
-	text-decoration: none;
-	color: rgba(255,255,255,0.8);
+	text-decoration: underline;
+	color: rgba(0,0,0,1.0);
 }
 
 #menu .current_page_item a {
@@ -362,7 +362,7 @@ ul.style2 h3 {
 }
 
 ul.style2 h3 a {
-	color: #3e86d8;
+	color: #2ac4f4;
 }
 
 ul.style2 a {
@@ -528,14 +528,14 @@ ul.style3 .first {
 		display: inline-block;
 		margin-top: 2em;
 		padding: 0em 1em;
-		background: #3e86d8;
+		background: #2ac4f4;
 		letter-spacing: 0.10em;
 		line-height: 3em;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 1em;
-		color: #FFF;
+		color: #000000;
 	}
 	
 /*********************************************************************************/
